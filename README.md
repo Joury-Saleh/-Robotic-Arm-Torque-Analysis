@@ -61,11 +61,11 @@ Force = Mass × Gravity = 1 kg × 9.81 m/s² = 9.81 N
 
 ### Selected Servo Motors
 
-| Joint | Required Torque | Selected Motor | Motor Torque | Safety Margin |
-|-------|----------------|----------------|--------------|---------------|
-| Joint 1 | 29 kg·cm | **MG995** | 35 kg·cm | 20% |
-| Joint 2 | 14 kg·cm | **MG996R** | 18 kg·cm | 28% |
-| Joint 3 | 4 kg·cm | **SG90** | 6 kg·cm | 50% |
+| Joint | Required Torque | Selected Motor | Motor Torque |
+|-------|----------------|----------------|--------------|
+| Joint 1 | 29 kg·cm | **MG995** | 35 kg·cm | 
+| Joint 2 | 14 kg·cm | **MG996R** | 18 kg·cm | 
+| Joint 3 | 4 kg·cm | **SG90** | 6 kg·cm |
 
 ---
 
