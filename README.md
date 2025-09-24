@@ -1,4 +1,4 @@
-# 🦾 Robotic Arm Torque Analysis & Motor Selection
+#  Robotic Arm Torque Analysis & Motor Selection
 
 ## Project Overview
 
@@ -77,9 +77,9 @@ When payload increases to 2 kg, torque requirements double:
 
 | Joint | New Torque Requirement | Current Motor Capacity | Status |
 |-------|----------------------|----------------------|---------|
-| Joint 1 | **58 kg·cm** | 35 kg·cm | ❌ Insufficient |
-| Joint 2 | **28 kg·cm** | 18 kg·cm | ❌ Insufficient |
-| Joint 3 | **8 kg·cm** | 6 kg·cm | ⚠️ Marginal |
+| Joint 1 | **58 kg·cm** | 35 kg·cm |  Insufficient |
+| Joint 2 | **28 kg·cm** | 18 kg·cm |  Insufficient |
+| Joint 3 | **8 kg·cm** | 6 kg·cm | Marginal |
 
 ### Gear Reduction Solution
 
@@ -87,11 +87,11 @@ To achieve the required torque with existing motors, gear reduction systems are 
 
 **Joint 1 (Base)**
 - **Required Gear Ratio**: 58 ÷ 35 = 1.66:1 → **Use 2:1 planetary gears**
-- **Final Torque Output**: 35 × 2 = 70 kg·cm ✅
+- **Final Torque Output**: 35 × 2 = 70 kg·cm 
 
 **Joint 2 (Elbow)** 
 - **Required Gear Ratio**: 28 ÷ 18 = 1.56:1 → **Use 2:1 planetary gears**
-- **Final Torque Output**: 18 × 2 = 36 kg·cm ✅
+- **Final Torque Output**: 18 × 2 = 36 kg·cm 
 
 **Joint 3 (Wrist)**
 - **Current capacity sufficient with minor upgrade to MG90S (9 kg·cm)**
